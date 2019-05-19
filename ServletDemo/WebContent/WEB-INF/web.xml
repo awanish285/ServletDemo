@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ServletDemo</display-name>
+  <servlet>
+  <servlet-name>Add</servlet-name>
+  <servlet-class>com.myproject.Add</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Add</servlet-name>
+  <url-pattern>/add</url-pattern>
+  
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>Sub</servlet-name>
+  <servlet-class>com.sub.Sub</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Sub</servlet-name>
+  <url-pattern>/sub</url-pattern>
+  
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Mul</servlet-name>
+  <servlet-class>com.multipication.Mul</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Mul</servlet-name>
+  <url-pattern>/mul</url-pattern>
+  
+  </servlet-mapping>
+</web-app>
